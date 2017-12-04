@@ -4,3 +4,4 @@ from django.db import models
 class evento(models.Model):
     Nombre=models.CharField(max_length=10)
     tipo=models.CharField(max_length=10)
+    lugar=models.CharField(max_length=10)
